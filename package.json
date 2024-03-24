@@ -1,0 +1,32 @@
+{
+  "name": "qr-nft",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "@thirdweb-dev/engine": "^0.0.5",
+    "@thirdweb-dev/react": "^4.4.23",
+    "@thirdweb-dev/sdk": "^4.0.49",
+    "ethers": "^5.7.2",
+    "mongodb": "^6.5.0",
+    "next": "14.1.4",
+    "pino-pretty": "^11.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "prisma": "^5.11.0",
+    "typescript": "^5"
+  }
+}
