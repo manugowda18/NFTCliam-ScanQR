@@ -3,16 +3,15 @@
 import { ThirdwebProvider, embeddedWallet } from "@thirdweb-dev/react";
 
 import type { FC } from "react";
-import React from "react";
 
-export const CustomThirdwebProvider: FC<{ clildren: React.ReactNode}> = ({ clildren}) => {
-    return(
-        <ThirdwebProvider
-        activeChain="mumbai"
-        clientId={process.env.NEXT_PUBLIC_CLIENT_ID}
-        supportedWallets={[embeddedWallet()]}
-        >
-            { clildren}
-        </ThirdwebProvider>
-    );
+export const CustomThirdwebProvider: FC<{ children: React.ReactNode }> = ({ children }) => {
+  return (
+    <ThirdwebProvider
+      activeChain="sepolia"
+      clientId={process.env.NEXT_PUBLIC_CLIENT_ID}
+      supportedWallets={[embeddedWallet()]}
+    >
+      {children}
+    </ThirdwebProvider>
+  );
 };

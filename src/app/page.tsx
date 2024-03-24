@@ -64,7 +64,9 @@ export default function Home() {
               </div>
             ))
           ) : (
-            <p>You dont have any NFTs yet</p> // Corrected typo
+            <p>You don&apos;t have any NFTs yet <br /> <br /> <span style={{
+              color:"red"
+            }}>Can&apos;t Cliam Nft using QR now from My side Engine API Key is Removed. You can clone this repo add your Engine API Key then you Cliam the NFT Qr.</span> <br /> <br /> TO Git Repo :  <a style={{color:"blue"}} href="https://github.com/manugowda18/NFTCliam-ScanQR">Click Here</a></p> // Corrected typo
           )}
         </div>
       )}
